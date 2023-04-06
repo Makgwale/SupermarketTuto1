@@ -29,6 +29,7 @@ namespace SupermarketTuto1
 				cmd.ExecuteNonQuery();
 				MessageBox.Show("Category Added Successfully");
 				Con.Close();
+				populate();
 			}
 			catch(Exception ex)
 			{
@@ -52,7 +53,7 @@ namespace SupermarketTuto1
 			Con.Close();
 
 		}
-
+ 
 		private void CategoryForm_Load(object sender, EventArgs e)
 		{
 			
@@ -117,6 +118,20 @@ namespace SupermarketTuto1
 			{
 				MessageBox.Show(ex.Message);
 			}
+		}
+
+		private void productFormBtn_Click(object sender, EventArgs e)
+		{
+			ProductForm productForm = new ProductForm();
+			productForm.Show();
+			this.Hide();
+		}
+
+		private void sellerFormBtn_Click(object sender, EventArgs e)
+		{
+			SellerForm sellerForm = new SellerForm();
+			sellerForm.Show();
+			this.Hide();
 		}
 	}
 }

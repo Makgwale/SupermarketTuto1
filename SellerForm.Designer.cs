@@ -28,59 +28,79 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.sellerPasTb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.button8 = new System.Windows.Forms.Button();
 			this.comboBox2 = new System.Windows.Forms.ComboBox();
-			this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.button7 = new System.Windows.Forms.Button();
-			this.button6 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
+			this.sellerGDV = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.delBtn = new System.Windows.Forms.Button();
+			this.editBtn = new System.Windows.Forms.Button();
+			this.addBtn = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
-			this.bunifuMaterialTextbox4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+			this.sellerCellTb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.label5 = new System.Windows.Forms.Label();
-			this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+			this.sellerAgeTb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+			this.sellerNameTb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.label3 = new System.Windows.Forms.Label();
-			this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+			this.sellerIdTb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.button5 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
-			this.bunifuMaterialTextbox5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+			this.exitBtn = new System.Windows.Forms.Button();
+			this.sellFormBtn = new System.Windows.Forms.Button();
+			this.categoryFomBtn = new System.Windows.Forms.Button();
+			this.productFormBtn = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.sellerGDV)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.DarkRed;
-			this.panel1.Controls.Add(this.bunifuMaterialTextbox5);
+			this.panel1.Controls.Add(this.sellerPasTb);
 			this.panel1.Controls.Add(this.button8);
 			this.panel1.Controls.Add(this.comboBox2);
-			this.panel1.Controls.Add(this.guna2DataGridView1);
-			this.panel1.Controls.Add(this.button7);
-			this.panel1.Controls.Add(this.button6);
-			this.panel1.Controls.Add(this.button4);
+			this.panel1.Controls.Add(this.sellerGDV);
+			this.panel1.Controls.Add(this.delBtn);
+			this.panel1.Controls.Add(this.editBtn);
+			this.panel1.Controls.Add(this.addBtn);
 			this.panel1.Controls.Add(this.label6);
-			this.panel1.Controls.Add(this.bunifuMaterialTextbox4);
+			this.panel1.Controls.Add(this.sellerCellTb);
 			this.panel1.Controls.Add(this.label5);
-			this.panel1.Controls.Add(this.bunifuMaterialTextbox3);
+			this.panel1.Controls.Add(this.sellerAgeTb);
 			this.panel1.Controls.Add(this.label4);
-			this.panel1.Controls.Add(this.bunifuMaterialTextbox2);
+			this.panel1.Controls.Add(this.sellerNameTb);
 			this.panel1.Controls.Add(this.label3);
-			this.panel1.Controls.Add(this.bunifuMaterialTextbox1);
+			this.panel1.Controls.Add(this.sellerIdTb);
 			this.panel1.Controls.Add(this.label2);
 			this.panel1.Controls.Add(this.label1);
 			this.panel1.Location = new System.Drawing.Point(117, 25);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(839, 546);
 			this.panel1.TabIndex = 1;
+			// 
+			// sellerPasTb
+			// 
+			this.sellerPasTb.BackColor = System.Drawing.Color.DarkRed;
+			this.sellerPasTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.sellerPasTb.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerPasTb.ForeColor = System.Drawing.Color.White;
+			this.sellerPasTb.HintForeColor = System.Drawing.Color.Empty;
+			this.sellerPasTb.HintText = "";
+			this.sellerPasTb.isPassword = false;
+			this.sellerPasTb.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerPasTb.LineIdleColor = System.Drawing.Color.White;
+			this.sellerPasTb.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerPasTb.LineThickness = 3;
+			this.sellerPasTb.Location = new System.Drawing.Point(123, 240);
+			this.sellerPasTb.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.sellerPasTb.Name = "sellerPasTb";
+			this.sellerPasTb.Size = new System.Drawing.Size(178, 33);
+			this.sellerPasTb.TabIndex = 29;
+			this.sellerPasTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// button8
 			// 
@@ -111,97 +131,102 @@
 			this.comboBox2.TabIndex = 27;
 			this.comboBox2.Text = "Select Category";
 			// 
-			// guna2DataGridView1
+			// sellerGDV
 			// 
-			dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
-			dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
-			this.guna2DataGridView1.ColumnHeadersHeight = 4;
-			this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-			dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle18;
-			this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView1.Location = new System.Drawing.Point(320, 85);
-			this.guna2DataGridView1.Name = "guna2DataGridView1";
-			this.guna2DataGridView1.RowHeadersVisible = false;
-			this.guna2DataGridView1.Size = new System.Drawing.Size(474, 440);
-			this.guna2DataGridView1.TabIndex = 26;
-			this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-			this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-			this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-			this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+			this.sellerGDV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+			this.sellerGDV.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.IndianRed;
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.sellerGDV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+			this.sellerGDV.ColumnHeadersHeight = 25;
+			this.sellerGDV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.sellerGDV.DefaultCellStyle = dataGridViewCellStyle6;
+			this.sellerGDV.GridColor = System.Drawing.Color.LightGray;
+			this.sellerGDV.Location = new System.Drawing.Point(320, 85);
+			this.sellerGDV.Name = "sellerGDV";
+			this.sellerGDV.RowHeadersVisible = false;
+			this.sellerGDV.Size = new System.Drawing.Size(474, 440);
+			this.sellerGDV.TabIndex = 26;
+			this.sellerGDV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+			this.sellerGDV.ThemeStyle.AlternatingRowsStyle.Font = null;
+			this.sellerGDV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+			this.sellerGDV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+			this.sellerGDV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+			this.sellerGDV.ThemeStyle.BackColor = System.Drawing.Color.White;
+			this.sellerGDV.ThemeStyle.GridColor = System.Drawing.Color.LightGray;
+			this.sellerGDV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.sellerGDV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			this.sellerGDV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Georgia", 14.25F);
+			this.sellerGDV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+			this.sellerGDV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+			this.sellerGDV.ThemeStyle.HeaderStyle.Height = 25;
+			this.sellerGDV.ThemeStyle.ReadOnly = false;
+			this.sellerGDV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+			this.sellerGDV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.sellerGDV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerGDV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.sellerGDV.ThemeStyle.RowsStyle.Height = 22;
+			this.sellerGDV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.sellerGDV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.sellerGDV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.sellerGDV_CellContentClick);
 			// 
-			// button7
+			// delBtn
 			// 
-			this.button7.BackColor = System.Drawing.Color.LightSalmon;
-			this.button7.FlatAppearance.BorderSize = 2;
-			this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button7.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button7.ForeColor = System.Drawing.Color.DarkRed;
-			this.button7.Location = new System.Drawing.Point(200, 317);
-			this.button7.Name = "button7";
-			this.button7.Size = new System.Drawing.Size(93, 32);
-			this.button7.TabIndex = 25;
-			this.button7.Text = "DELETE";
-			this.button7.UseVisualStyleBackColor = false;
+			this.delBtn.BackColor = System.Drawing.Color.LightSalmon;
+			this.delBtn.FlatAppearance.BorderSize = 2;
+			this.delBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.delBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.delBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.delBtn.Location = new System.Drawing.Point(200, 317);
+			this.delBtn.Name = "delBtn";
+			this.delBtn.Size = new System.Drawing.Size(93, 32);
+			this.delBtn.TabIndex = 25;
+			this.delBtn.Text = "DELETE";
+			this.delBtn.UseVisualStyleBackColor = false;
+			this.delBtn.Click += new System.EventHandler(this.delBtn_Click);
 			// 
-			// button6
+			// editBtn
 			// 
-			this.button6.BackColor = System.Drawing.Color.LightSalmon;
-			this.button6.FlatAppearance.BorderSize = 2;
-			this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button6.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button6.ForeColor = System.Drawing.Color.DarkRed;
-			this.button6.Location = new System.Drawing.Point(107, 317);
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size(87, 32);
-			this.button6.TabIndex = 24;
-			this.button6.Text = "EDIT";
-			this.button6.UseVisualStyleBackColor = false;
+			this.editBtn.BackColor = System.Drawing.Color.LightSalmon;
+			this.editBtn.FlatAppearance.BorderSize = 2;
+			this.editBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.editBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.editBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.editBtn.Location = new System.Drawing.Point(107, 317);
+			this.editBtn.Name = "editBtn";
+			this.editBtn.Size = new System.Drawing.Size(87, 32);
+			this.editBtn.TabIndex = 24;
+			this.editBtn.Text = "EDIT";
+			this.editBtn.UseVisualStyleBackColor = false;
+			this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
 			// 
-			// button4
+			// addBtn
 			// 
-			this.button4.BackColor = System.Drawing.Color.LightSalmon;
-			this.button4.FlatAppearance.BorderSize = 2;
-			this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button4.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button4.ForeColor = System.Drawing.Color.DarkRed;
-			this.button4.Location = new System.Drawing.Point(14, 317);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(87, 32);
-			this.button4.TabIndex = 23;
-			this.button4.Text = "ADD";
-			this.button4.UseVisualStyleBackColor = false;
+			this.addBtn.BackColor = System.Drawing.Color.LightSalmon;
+			this.addBtn.FlatAppearance.BorderSize = 2;
+			this.addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.addBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.addBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.addBtn.Location = new System.Drawing.Point(14, 317);
+			this.addBtn.Name = "addBtn";
+			this.addBtn.Size = new System.Drawing.Size(87, 32);
+			this.addBtn.TabIndex = 23;
+			this.addBtn.Text = "ADD";
+			this.addBtn.UseVisualStyleBackColor = false;
+			this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
 			// 
 			// label6
 			// 
@@ -214,25 +239,25 @@
 			this.label6.TabIndex = 21;
 			this.label6.Text = "PASSWORD";
 			// 
-			// bunifuMaterialTextbox4
+			// sellerCellTb
 			// 
-			this.bunifuMaterialTextbox4.BackColor = System.Drawing.Color.DarkRed;
-			this.bunifuMaterialTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMaterialTextbox4.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuMaterialTextbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.bunifuMaterialTextbox4.HintForeColor = System.Drawing.Color.Empty;
-			this.bunifuMaterialTextbox4.HintText = "";
-			this.bunifuMaterialTextbox4.isPassword = false;
-			this.bunifuMaterialTextbox4.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.White;
-			this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox4.LineThickness = 3;
-			this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(123, 191);
-			this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
-			this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(178, 33);
-			this.bunifuMaterialTextbox4.TabIndex = 20;
-			this.bunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.sellerCellTb.BackColor = System.Drawing.Color.DarkRed;
+			this.sellerCellTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.sellerCellTb.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerCellTb.ForeColor = System.Drawing.Color.White;
+			this.sellerCellTb.HintForeColor = System.Drawing.Color.Empty;
+			this.sellerCellTb.HintText = "";
+			this.sellerCellTb.isPassword = false;
+			this.sellerCellTb.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerCellTb.LineIdleColor = System.Drawing.Color.White;
+			this.sellerCellTb.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerCellTb.LineThickness = 3;
+			this.sellerCellTb.Location = new System.Drawing.Point(123, 191);
+			this.sellerCellTb.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.sellerCellTb.Name = "sellerCellTb";
+			this.sellerCellTb.Size = new System.Drawing.Size(178, 33);
+			this.sellerCellTb.TabIndex = 20;
+			this.sellerCellTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// label5
 			// 
@@ -245,25 +270,25 @@
 			this.label5.TabIndex = 19;
 			this.label5.Text = "PHONE";
 			// 
-			// bunifuMaterialTextbox3
+			// sellerAgeTb
 			// 
-			this.bunifuMaterialTextbox3.BackColor = System.Drawing.Color.DarkRed;
-			this.bunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMaterialTextbox3.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuMaterialTextbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.bunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty;
-			this.bunifuMaterialTextbox3.HintText = "";
-			this.bunifuMaterialTextbox3.isPassword = false;
-			this.bunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.White;
-			this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox3.LineThickness = 3;
-			this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(123, 150);
-			this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
-			this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(178, 33);
-			this.bunifuMaterialTextbox3.TabIndex = 18;
-			this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.sellerAgeTb.BackColor = System.Drawing.Color.DarkRed;
+			this.sellerAgeTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.sellerAgeTb.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerAgeTb.ForeColor = System.Drawing.Color.White;
+			this.sellerAgeTb.HintForeColor = System.Drawing.Color.Empty;
+			this.sellerAgeTb.HintText = "";
+			this.sellerAgeTb.isPassword = false;
+			this.sellerAgeTb.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerAgeTb.LineIdleColor = System.Drawing.Color.White;
+			this.sellerAgeTb.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerAgeTb.LineThickness = 3;
+			this.sellerAgeTb.Location = new System.Drawing.Point(123, 150);
+			this.sellerAgeTb.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.sellerAgeTb.Name = "sellerAgeTb";
+			this.sellerAgeTb.Size = new System.Drawing.Size(178, 33);
+			this.sellerAgeTb.TabIndex = 18;
+			this.sellerAgeTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// label4
 			// 
@@ -276,25 +301,25 @@
 			this.label4.TabIndex = 17;
 			this.label4.Text = "AGE";
 			// 
-			// bunifuMaterialTextbox2
+			// sellerNameTb
 			// 
-			this.bunifuMaterialTextbox2.BackColor = System.Drawing.Color.DarkRed;
-			this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
-			this.bunifuMaterialTextbox2.HintText = "";
-			this.bunifuMaterialTextbox2.isPassword = false;
-			this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.White;
-			this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox2.LineThickness = 3;
-			this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(123, 109);
-			this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-			this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(178, 33);
-			this.bunifuMaterialTextbox2.TabIndex = 16;
-			this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.sellerNameTb.BackColor = System.Drawing.Color.DarkRed;
+			this.sellerNameTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.sellerNameTb.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerNameTb.ForeColor = System.Drawing.Color.White;
+			this.sellerNameTb.HintForeColor = System.Drawing.Color.Empty;
+			this.sellerNameTb.HintText = "";
+			this.sellerNameTb.isPassword = false;
+			this.sellerNameTb.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerNameTb.LineIdleColor = System.Drawing.Color.White;
+			this.sellerNameTb.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerNameTb.LineThickness = 3;
+			this.sellerNameTb.Location = new System.Drawing.Point(123, 109);
+			this.sellerNameTb.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.sellerNameTb.Name = "sellerNameTb";
+			this.sellerNameTb.Size = new System.Drawing.Size(178, 33);
+			this.sellerNameTb.TabIndex = 16;
+			this.sellerNameTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// label3
 			// 
@@ -307,25 +332,25 @@
 			this.label3.TabIndex = 15;
 			this.label3.Text = "NAME";
 			// 
-			// bunifuMaterialTextbox1
+			// sellerIdTb
 			// 
-			this.bunifuMaterialTextbox1.BackColor = System.Drawing.Color.DarkRed;
-			this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
-			this.bunifuMaterialTextbox1.HintText = "";
-			this.bunifuMaterialTextbox1.isPassword = false;
-			this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.White;
-			this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox1.LineThickness = 3;
-			this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(123, 68);
-			this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-			this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(178, 33);
-			this.bunifuMaterialTextbox1.TabIndex = 14;
-			this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.sellerIdTb.BackColor = System.Drawing.Color.DarkRed;
+			this.sellerIdTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.sellerIdTb.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.sellerIdTb.ForeColor = System.Drawing.Color.White;
+			this.sellerIdTb.HintForeColor = System.Drawing.Color.Empty;
+			this.sellerIdTb.HintText = "";
+			this.sellerIdTb.isPassword = false;
+			this.sellerIdTb.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerIdTb.LineIdleColor = System.Drawing.Color.White;
+			this.sellerIdTb.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
+			this.sellerIdTb.LineThickness = 3;
+			this.sellerIdTb.Location = new System.Drawing.Point(123, 68);
+			this.sellerIdTb.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+			this.sellerIdTb.Name = "sellerIdTb";
+			this.sellerIdTb.Size = new System.Drawing.Size(178, 33);
+			this.sellerIdTb.TabIndex = 14;
+			this.sellerIdTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// label2
 			// 
@@ -349,95 +374,79 @@
 			this.label1.TabIndex = 0;
 			this.label1.Text = "MANAGE SELLERS";
 			// 
-			// button5
+			// exitBtn
 			// 
-			this.button5.FlatAppearance.BorderSize = 0;
-			this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button5.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button5.ForeColor = System.Drawing.Color.DarkRed;
-			this.button5.Location = new System.Drawing.Point(899, 12);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(40, 30);
-			this.button5.TabIndex = 29;
-			this.button5.Text = "x";
-			this.button5.UseVisualStyleBackColor = true;
+			this.exitBtn.FlatAppearance.BorderSize = 0;
+			this.exitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.exitBtn.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.exitBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.exitBtn.Location = new System.Drawing.Point(899, 12);
+			this.exitBtn.Name = "exitBtn";
+			this.exitBtn.Size = new System.Drawing.Size(40, 30);
+			this.exitBtn.TabIndex = 29;
+			this.exitBtn.Text = "x";
+			this.exitBtn.UseVisualStyleBackColor = true;
+			this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
 			// 
-			// button3
+			// sellFormBtn
 			// 
-			this.button3.FlatAppearance.BorderSize = 0;
-			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button3.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button3.ForeColor = System.Drawing.Color.DarkRed;
-			this.button3.Location = new System.Drawing.Point(3, 190);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(87, 29);
-			this.button3.TabIndex = 32;
-			this.button3.Text = "Selling";
-			this.button3.UseVisualStyleBackColor = true;
+			this.sellFormBtn.FlatAppearance.BorderSize = 0;
+			this.sellFormBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.sellFormBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.sellFormBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.sellFormBtn.Location = new System.Drawing.Point(3, 190);
+			this.sellFormBtn.Name = "sellFormBtn";
+			this.sellFormBtn.Size = new System.Drawing.Size(87, 29);
+			this.sellFormBtn.TabIndex = 32;
+			this.sellFormBtn.Text = "Selling";
+			this.sellFormBtn.UseVisualStyleBackColor = true;
 			// 
-			// button2
+			// categoryFomBtn
 			// 
-			this.button2.FlatAppearance.BorderSize = 0;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button2.ForeColor = System.Drawing.Color.DarkRed;
-			this.button2.Location = new System.Drawing.Point(12, 151);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(87, 29);
-			this.button2.TabIndex = 31;
-			this.button2.Text = "Category";
-			this.button2.UseVisualStyleBackColor = true;
+			this.categoryFomBtn.FlatAppearance.BorderSize = 0;
+			this.categoryFomBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.categoryFomBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.categoryFomBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.categoryFomBtn.Location = new System.Drawing.Point(12, 151);
+			this.categoryFomBtn.Name = "categoryFomBtn";
+			this.categoryFomBtn.Size = new System.Drawing.Size(87, 29);
+			this.categoryFomBtn.TabIndex = 31;
+			this.categoryFomBtn.Text = "Category";
+			this.categoryFomBtn.UseVisualStyleBackColor = true;
+			this.categoryFomBtn.Click += new System.EventHandler(this.categoryFomBtn_Click);
 			// 
-			// button1
+			// productFormBtn
 			// 
-			this.button1.FlatAppearance.BorderSize = 0;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button1.ForeColor = System.Drawing.Color.DarkRed;
-			this.button1.Location = new System.Drawing.Point(12, 110);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(87, 23);
-			this.button1.TabIndex = 30;
-			this.button1.Text = "Products";
-			this.button1.UseVisualStyleBackColor = true;
-			// 
-			// bunifuMaterialTextbox5
-			// 
-			this.bunifuMaterialTextbox5.BackColor = System.Drawing.Color.DarkRed;
-			this.bunifuMaterialTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMaterialTextbox5.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuMaterialTextbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.bunifuMaterialTextbox5.HintForeColor = System.Drawing.Color.Empty;
-			this.bunifuMaterialTextbox5.HintText = "";
-			this.bunifuMaterialTextbox5.isPassword = false;
-			this.bunifuMaterialTextbox5.LineFocusedColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.White;
-			this.bunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.WhiteSmoke;
-			this.bunifuMaterialTextbox5.LineThickness = 3;
-			this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(123, 240);
-			this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-			this.bunifuMaterialTextbox5.Name = "bunifuMaterialTextbox5";
-			this.bunifuMaterialTextbox5.Size = new System.Drawing.Size(178, 33);
-			this.bunifuMaterialTextbox5.TabIndex = 29;
-			this.bunifuMaterialTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.productFormBtn.FlatAppearance.BorderSize = 0;
+			this.productFormBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.productFormBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.productFormBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.productFormBtn.Location = new System.Drawing.Point(12, 110);
+			this.productFormBtn.Name = "productFormBtn";
+			this.productFormBtn.Size = new System.Drawing.Size(87, 23);
+			this.productFormBtn.TabIndex = 30;
+			this.productFormBtn.Text = "Products";
+			this.productFormBtn.UseVisualStyleBackColor = true;
+			this.productFormBtn.Click += new System.EventHandler(this.productFormBtn_Click);
 			// 
 			// SellerForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(977, 583);
-			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.button5);
+			this.Controls.Add(this.sellFormBtn);
+			this.Controls.Add(this.categoryFomBtn);
+			this.Controls.Add(this.productFormBtn);
+			this.Controls.Add(this.exitBtn);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "SellerForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "SellerForm";
+			this.Text = "   ";
+			this.Load += new System.EventHandler(this.SellerForm_Load);
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.sellerGDV)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -447,24 +456,24 @@
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Button button8;
 		private System.Windows.Forms.ComboBox comboBox2;
-		private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-		private System.Windows.Forms.Button button7;
-		private System.Windows.Forms.Button button6;
-		private System.Windows.Forms.Button button4;
+		private Guna.UI2.WinForms.Guna2DataGridView sellerGDV;
+		private System.Windows.Forms.Button delBtn;
+		private System.Windows.Forms.Button editBtn;
+		private System.Windows.Forms.Button addBtn;
 		private System.Windows.Forms.Label label6;
-		private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox sellerCellTb;
 		private System.Windows.Forms.Label label5;
-		private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox sellerAgeTb;
 		private System.Windows.Forms.Label label4;
-		private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox sellerNameTb;
 		private System.Windows.Forms.Label label3;
-		private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox sellerIdTb;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
-		private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
+		private System.Windows.Forms.Button exitBtn;
+		private System.Windows.Forms.Button sellFormBtn;
+		private System.Windows.Forms.Button categoryFomBtn;
+		private System.Windows.Forms.Button productFormBtn;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox sellerPasTb;
 	}
 }

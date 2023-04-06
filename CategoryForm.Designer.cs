@@ -47,8 +47,8 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.CartExit = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
+			this.productFormBtn = new System.Windows.Forms.Button();
+			this.sellerFormBtn = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.CartDGV)).BeginInit();
 			this.SuspendLayout();
@@ -129,6 +129,7 @@
 			this.CartDGV.GridColor = System.Drawing.Color.LightGray;
 			this.CartDGV.Location = new System.Drawing.Point(320, 85);
 			this.CartDGV.Name = "CartDGV";
+			this.CartDGV.ReadOnly = true;
 			this.CartDGV.RowHeadersVisible = false;
 			this.CartDGV.RowTemplate.Height = 30;
 			this.CartDGV.Size = new System.Drawing.Size(474, 440);
@@ -146,7 +147,7 @@
 			this.CartDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
 			this.CartDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
 			this.CartDGV.ThemeStyle.HeaderStyle.Height = 25;
-			this.CartDGV.ThemeStyle.ReadOnly = false;
+			this.CartDGV.ThemeStyle.ReadOnly = true;
 			this.CartDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
 			this.CartDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.CartDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -332,31 +333,33 @@
 			this.button3.Text = "Selling";
 			this.button3.UseVisualStyleBackColor = true;
 			// 
-			// button2
+			// productFormBtn
 			// 
-			this.button2.FlatAppearance.BorderSize = 0;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button2.ForeColor = System.Drawing.Color.DarkRed;
-			this.button2.Location = new System.Drawing.Point(12, 151);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(87, 29);
-			this.button2.TabIndex = 32;
-			this.button2.Text = "Products";
-			this.button2.UseVisualStyleBackColor = true;
+			this.productFormBtn.FlatAppearance.BorderSize = 0;
+			this.productFormBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.productFormBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.productFormBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.productFormBtn.Location = new System.Drawing.Point(12, 151);
+			this.productFormBtn.Name = "productFormBtn";
+			this.productFormBtn.Size = new System.Drawing.Size(87, 29);
+			this.productFormBtn.TabIndex = 32;
+			this.productFormBtn.Text = "Products";
+			this.productFormBtn.UseVisualStyleBackColor = true;
+			this.productFormBtn.Click += new System.EventHandler(this.productFormBtn_Click);
 			// 
-			// button1
+			// sellerFormBtn
 			// 
-			this.button1.FlatAppearance.BorderSize = 0;
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
-			this.button1.ForeColor = System.Drawing.Color.DarkRed;
-			this.button1.Location = new System.Drawing.Point(2, 110);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(87, 23);
-			this.button1.TabIndex = 31;
-			this.button1.Text = "Seller";
-			this.button1.UseVisualStyleBackColor = true;
+			this.sellerFormBtn.FlatAppearance.BorderSize = 0;
+			this.sellerFormBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.sellerFormBtn.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold);
+			this.sellerFormBtn.ForeColor = System.Drawing.Color.DarkRed;
+			this.sellerFormBtn.Location = new System.Drawing.Point(2, 110);
+			this.sellerFormBtn.Name = "sellerFormBtn";
+			this.sellerFormBtn.Size = new System.Drawing.Size(87, 23);
+			this.sellerFormBtn.TabIndex = 31;
+			this.sellerFormBtn.Text = "Seller";
+			this.sellerFormBtn.UseVisualStyleBackColor = true;
+			this.sellerFormBtn.Click += new System.EventHandler(this.sellerFormBtn_Click);
 			// 
 			// CategoryForm
 			// 
@@ -364,8 +367,8 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(977, 583);
 			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.productFormBtn);
+			this.Controls.Add(this.sellerFormBtn);
 			this.Controls.Add(this.CartExit);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -398,7 +401,7 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button CartExit;
 		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button productFormBtn;
+		private System.Windows.Forms.Button sellerFormBtn;
 	}
 }
