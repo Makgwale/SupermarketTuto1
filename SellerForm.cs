@@ -100,6 +100,11 @@ namespace SupermarketTuto1
 					MessageBox.Show("Seller successfully deleted");
 					Con.Close();
 					populate();
+					sellerIdTb.Text = "";
+					sellerNameTb.Text = "";
+					sellerAgeTb.Text = "";
+					sellerCellTb.Text = "";
+					sellerPasTb.Text = "";
 				}
 			}
 			catch(Exception ex)

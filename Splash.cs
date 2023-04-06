@@ -26,7 +26,7 @@ namespace SupermarketTuto1
 			{
 				MyProgressBar.Value = 0;
 				timer1.Stop();
-				Form1 log = new Form1();
+				Login log = new Login();
 				this.Hide();
 				log.Show();
 			}
