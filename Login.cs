@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,6 +74,10 @@ namespace SupermarketTuto1
 							MessageBox.Show("If You Are The Admin, Enter The Correct Username and Password");
 
 						}
+					}
+					else
+					{
+						MessageBox.Show("You are the seller section");
 					}
 				}
 				else
